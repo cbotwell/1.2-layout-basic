@@ -1,13 +1,18 @@
 div.header img:first-child {
     width: 100%;
+    display: block;
 }
 div.header img:nth-child(2) {
     width: 100px;
     border-radius:50%;
     border: 5px solid white;
-    display: ;
+    margin: -50px 0 0 10%;
 }
 div.post {
     width: 50%;
     margin: 0 25%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+div.post img {
+    width: 100%;
 }
