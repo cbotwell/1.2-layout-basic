@@ -1,3 +1,12 @@
+div.header img:first-child {
+    width: 100%;
+}
+div.header img:nth-child(2) {
+    width: 100px;
+    border-radius:50%;
+    border: 5px solid white;
+    display: ;
+}
 div.post {
     width: 50%;
     margin: 0 25%;
