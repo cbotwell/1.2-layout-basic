@@ -1,6 +1,5 @@
 div.header img:first-child {
     width: 100%;
-    display: block;
 }
 div.header img:nth-child(2) {
     width: 100px;
