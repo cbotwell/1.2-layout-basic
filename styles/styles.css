@@ -15,3 +15,15 @@ div.post {
 div.post img {
     width: 100%;
 }
+div.follow {
+    height: 75px;
+    width: 250px;
+    margin: 25px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: -4px 5px 2px -4px gray;
+}
