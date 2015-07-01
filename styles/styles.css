@@ -41,6 +41,9 @@ body {
 .side-top p {
     font-size: .75em;
 }
+.side-bottom input {
+    width: 75%;
+}
 /* POST */
 .post {
     width: 40%;
@@ -96,6 +99,7 @@ body {
 .bottom {
     height: 60%;
     padding: 5px;
+    width: 100%;
 }
 .bottom img {
     width: 45px;
