@@ -1,3 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
 div.header img:first-child {
     width: 100%;
 }
@@ -10,7 +19,6 @@ div.header img:nth-child(2) {
 div.post {
     width: 50%;
     margin: 0 25%;
-    font-family: Helvetica, Arial, sans-serif;
 }
 div.post img {
     width: 100%;
@@ -26,4 +34,26 @@ div.follow {
     border: 1px solid gray;
     border-radius: 5px;
     box-shadow: -4px 5px 2px -4px gray;
+}
+div.follow p {
+    margin: 0;
+}
+div.top {
+    height: 50%;
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
+div.top p {
+        padding: 5px;
+}
+div.bottown {
+    height: 50%;
+    padding: 5px;
+}
+div.bottom p {
+        font-size: .75em;
+        margin: 5px;
+}
+div.bottom p:first-child {
+        font-weight: bold;
 }
