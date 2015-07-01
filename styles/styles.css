@@ -23,6 +23,9 @@ div.post {
 div.post img {
     width: 100%;
 }
+.attribution {
+    font-style: italic;
+}
 div.follow {
     height: 90px;
     width: 300px;
