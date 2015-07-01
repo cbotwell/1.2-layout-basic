@@ -7,26 +7,26 @@ html {
 body {
     font-family: Helvetica, Arial, sans-serif;
 }
-div.header img:first-child {
+.header img:first-child {
     width: 100%;
 }
-div.header img:nth-child(2) {
+.header img:nth-child(2) {
     width: 100px;
     border-radius:50%;
     border: 5px solid white;
     margin: -50px 0 0 10%;
 }
-div.post {
+.post {
     width: 50%;
     margin: 0 25%;
 }
-div.post img {
+.post img {
     width: 100%;
 }
 .attribution {
     font-style: italic;
 }
-div.follow {
+.follow {
     height: 90px;
     width: 300px;
     margin: 15px;
@@ -38,45 +38,45 @@ div.follow {
     border-radius: 3px;
     box-shadow: -4px 5px 2px -4px #C0C0C0;
 }
-div.follow p {
+.follow p {
     margin: 0;
 }
-div.top {
+.top {
     height: 40%;
     border-bottom: 1px solid #E3E2E2;
     padding: 5px;
 }
-div.top p {
+.top p {
     font-weight: bold;
     padding: 5px;
 }
-div.top p:first-child {
+.top p:first-child {
     float: left;
 }
-div.top p:nth-child(2) {
+.top p:nth-child(2) {
     float: right;
     color: gray;
 }
-div.top p:nth-child(2):hover {
+.top p:nth-child(2):hover {
     color: black;
 }
-div.bottom {
+.bottom {
     height: 60%;
     padding: 5px;
 }
-div.bottom img {
+.bottom img {
     width: 45px;
     float: left;
     border-radius: 3px;
 }
-div.bottom div {
+.bottom div {
     margin: 5px 5px 0px 20px;
     float: left;
 }
-div.bottom div p:first-child{
+.bottom div p:first-child{
     font-weight: bold;
 }
-div.button {
+.button {
     background: #519FDD;
     border-radius: 3px;
     height: 75%;
@@ -84,11 +84,11 @@ div.button {
     margin-left: 20px;
     float: right;
 }
-div.button p {
+.button p {
     padding: 8px;
     text-align: center;
     color: white;
 }
-div.button:hover {
+.button:hover {
     background: #203E56;
 }
