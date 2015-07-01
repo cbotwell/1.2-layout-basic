@@ -31,9 +31,7 @@ body {
     float: left;
     padding-top: 20px;
 }
-.sidebar .side-top h4 {
-    font-weight: bold;
-}
+
 .side-top {
     border-bottom: 1px solid gray;
     width: 75%;
