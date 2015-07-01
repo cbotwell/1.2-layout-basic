@@ -1,8 +1,8 @@
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -47,17 +47,48 @@ div.top {
     padding: 5px;
 }
 div.top p {
-        font-weight: bold;
-        padding: 5px;
+    font-weight: bold;
+    padding: 5px;
+}
+div.top p:first-child {
+    float: left;
+}
+div.top p:nth-child(2) {
+    float: right;
+    color: gray;
+}
+div.top p:nth-child(2):hover {
+    color: black;
 }
 div.bottom {
     height: 60%;
     padding: 5px;
 }
-div.bottom p {
-        font-size: .75em;
-        margin: 5px;
+div.bottom img {
+    width: 45px;
+    float: left;
+    border-radius: 3px;
 }
-div.bottom p:first-child {
-        font-weight: bold;
+div.bottom div {
+    margin: 5px 5px 0px 20px;
+    float: left;
+}
+div.bottom div p:first-child{
+    font-weight: bold;
+}
+div.button {
+    background: #519FDD;
+    border-radius: 3px;
+    height: 75%;
+    width: 30%;
+    margin-left: 20px;
+    float: right;
+}
+div.button p {
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+div.button:hover {
+    background: #203E56;
 }
