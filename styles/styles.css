@@ -50,9 +50,6 @@ body {
     float: left;
     padding-top: 20px;
 }
-.post h1 {
-    margin-top: 0;
-}
 .post img {
     width: 100%;
 }
@@ -142,4 +139,52 @@ body {
 }
 .button:active {
     background: #4AEADB;
+}
+@media (max-width: 480px) {
+    .middle {
+        margin: 0 11px;
+        padding: 0;
+    }
+    .sidebar, .post {
+        float: none;
+        width: 95%;
+        margin: 0;
+    }
+    .sidebar {
+        max-width: 300px
+    }
+    .follow {
+        display: none;
+    }
+    .follow-small {
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #E3E2E2;
+        height: 84px;
+    }
+    .follow-small .top, .follow-small .bottom {
+        width: 100%;
+        border-bottom: 1px solid #E3E2E2;
+    }
+    .follow-small .top {
+        height: 40%;
+    }
+    .follow-small .bottom {
+        height: 60%;
+    }
+    .follow-small .bottom div p {
+        margin: 0;
+    }
+    .button {
+        width: 19%;
+        height: 90%;
+    }
+    .bottom img {
+        display: none;
+    }
+}
+@media (min-width: 481px) {
+    .follow-small {
+        display: none;
+    }
 }
